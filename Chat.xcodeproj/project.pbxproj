@@ -15,6 +15,8 @@
 		95EA775629F4256A0024E3A6 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95EA775329F4256A0024E3A6 /* LexendDeca-SemiBold.ttf */; };
 		95EA775729F4256A0024E3A6 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95EA775429F4256A0024E3A6 /* LexendDeca-Regular.ttf */; };
 		95EA775A29F428B90024E3A6 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA775929F428B90024E3A6 /* Fonts.swift */; };
+		95EA775F29F43EE60024E3A6 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA775E29F43EE60024E3A6 /* CustomTabBar.swift */; };
+		95F4D0D729F51F8500BA13C8 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0D629F51F8500BA13C8 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		95EA775429F4256A0024E3A6 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
 		95EA775829F4260F0024E3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		95EA775929F428B90024E3A6 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		95EA775E29F43EE60024E3A6 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		95F4D0D629F51F8500BA13C8 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				95EA774029F18C2D0024E3A6 /* RootView.swift */,
+				95EA775B29F43EA60024E3A6 /* Custom Tab Bar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +132,15 @@
 				95EA775329F4256A0024E3A6 /* LexendDeca-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		95EA775B29F43EA60024E3A6 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				95EA775E29F43EE60024E3A6 /* CustomTabBar.swift */,
+				95F4D0D629F51F8500BA13C8 /* TabBarButton.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EA775F29F43EE60024E3A6 /* CustomTabBar.swift in Sources */,
 				95EA774129F18C2D0024E3A6 /* RootView.swift in Sources */,
 				95EA775A29F428B90024E3A6 /* Fonts.swift in Sources */,
+				95F4D0D729F51F8500BA13C8 /* TabBarButton.swift in Sources */,
 				95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
