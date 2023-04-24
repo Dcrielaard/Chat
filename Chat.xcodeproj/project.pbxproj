@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95988D0729F6B86500C5BD72 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */; };
+		95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */; };
 		95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA773E29F18C2D0024E3A6 /* ChatApp.swift */; };
 		95EA774129F18C2D0024E3A6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA774029F18C2D0024E3A6 /* RootView.swift */; };
 		95EA774329F18C2F0024E3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EA774229F18C2F0024E3A6 /* Assets.xcassets */; };
@@ -24,9 +26,17 @@
 		95F4D0E429F545E700BA13C8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 95F4D0E329F545E700BA13C8 /* FirebaseStorage */; };
 		95F4D0E629F5465300BA13C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0E529F5465300BA13C8 /* AppDelegate.swift */; };
 		95F4D0E929F54EE700BA13C8 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0E829F54EE700BA13C8 /* AuthViewModel.swift */; };
+		95F4D0EC29F55E5400BA13C8 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0EB29F55E5400BA13C8 /* OnboardingContainerView.swift */; };
+		95F4D0EE29F56E5700BA13C8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0ED29F56E5700BA13C8 /* WelcomeView.swift */; };
+		95F4D0F029F56E9200BA13C8 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0EF29F56E9200BA13C8 /* PhoneNumberView.swift */; };
+		95F4D0F229F56EAB00BA13C8 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0F129F56EAB00BA13C8 /* VerificationView.swift */; };
+		95F4D0F429F56EC400BA13C8 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0F329F56EC400BA13C8 /* CreateProfileView.swift */; };
+		95F4D0F629F56ED900BA13C8 /* SyncContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4D0F529F56ED900BA13C8 /* SyncContactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
+		95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTextFieldStyle.swift; sourceTree = "<group>"; };
 		95EA773B29F18C2D0024E3A6 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EA773E29F18C2D0024E3A6 /* ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatApp.swift; sourceTree = "<group>"; };
 		95EA774029F18C2D0024E3A6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -43,6 +53,12 @@
 		95F4D0E529F5465300BA13C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F4D0E729F54A4E00BA13C8 /* Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chat.entitlements; sourceTree = "<group>"; };
 		95F4D0E829F54EE700BA13C8 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		95F4D0EB29F55E5400BA13C8 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		95F4D0ED29F56E5700BA13C8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		95F4D0EF29F56E9200BA13C8 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		95F4D0F129F56EAB00BA13C8 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		95F4D0F329F56EC400BA13C8 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		95F4D0F529F56ED900BA13C8 /* SyncContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,7 @@
 		95EA774C29F18C5F0024E3A6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95F4D0EA29F55E2900BA13C8 /* Onboarding */,
 				95EA774029F18C2D0024E3A6 /* RootView.swift */,
 				95EA775B29F43EA60024E3A6 /* Custom Tab Bar */,
 			);
@@ -139,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				95EA775929F428B90024E3A6 /* Fonts.swift */,
+				95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */,
+				95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -160,6 +179,19 @@
 				95F4D0D629F51F8500BA13C8 /* TabBarButton.swift */,
 			);
 			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		95F4D0EA29F55E2900BA13C8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				95F4D0EB29F55E5400BA13C8 /* OnboardingContainerView.swift */,
+				95F4D0ED29F56E5700BA13C8 /* WelcomeView.swift */,
+				95F4D0EF29F56E9200BA13C8 /* PhoneNumberView.swift */,
+				95F4D0F129F56EAB00BA13C8 /* VerificationView.swift */,
+				95F4D0F329F56EC400BA13C8 /* CreateProfileView.swift */,
+				95F4D0F529F56ED900BA13C8 /* SyncContactsView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,11 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F4D0F629F56ED900BA13C8 /* SyncContactsView.swift in Sources */,
 				95F4D0E629F5465300BA13C8 /* AppDelegate.swift in Sources */,
+				95F4D0EC29F55E5400BA13C8 /* OnboardingContainerView.swift in Sources */,
 				95EA775F29F43EE60024E3A6 /* CustomTabBar.swift in Sources */,
+				95988D0729F6B86500C5BD72 /* OnboardingButtonStyle.swift in Sources */,
 				95EA774129F18C2D0024E3A6 /* RootView.swift in Sources */,
+				95F4D0EE29F56E5700BA13C8 /* WelcomeView.swift in Sources */,
 				95F4D0E929F54EE700BA13C8 /* AuthViewModel.swift in Sources */,
+				95F4D0F429F56EC400BA13C8 /* CreateProfileView.swift in Sources */,
+				95F4D0F029F56E9200BA13C8 /* PhoneNumberView.swift in Sources */,
 				95EA775A29F428B90024E3A6 /* Fonts.swift in Sources */,
+				95F4D0F229F56EAB00BA13C8 /* VerificationView.swift in Sources */,
+				95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */,
 				95F4D0D729F51F8500BA13C8 /* TabBarButton.swift in Sources */,
 				95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */,
 			);
