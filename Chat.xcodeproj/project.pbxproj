@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		95988D0729F6B86500C5BD72 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */; };
 		95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */; };
+		95E2CBFD29F712FC0067A844 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2CBFC29F712FC0067A844 /* ContactsViewModel.swift */; };
 		95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA773E29F18C2D0024E3A6 /* ChatApp.swift */; };
 		95EA774129F18C2D0024E3A6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA774029F18C2D0024E3A6 /* RootView.swift */; };
 		95EA774329F18C2F0024E3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EA774229F18C2F0024E3A6 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
 		95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTextFieldStyle.swift; sourceTree = "<group>"; };
+		95E2CBFC29F712FC0067A844 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 		95EA773B29F18C2D0024E3A6 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EA773E29F18C2D0024E3A6 /* ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatApp.swift; sourceTree = "<group>"; };
 		95EA774029F18C2D0024E3A6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				95F4D0E829F54EE700BA13C8 /* AuthViewModel.swift */,
+				95E2CBFC29F712FC0067A844 /* ContactsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				95EA775A29F428B90024E3A6 /* Fonts.swift in Sources */,
 				95F4D0F229F56EAB00BA13C8 /* VerificationView.swift in Sources */,
 				95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */,
+				95E2CBFD29F712FC0067A844 /* ContactsViewModel.swift in Sources */,
 				95F4D0D729F51F8500BA13C8 /* TabBarButton.swift in Sources */,
 				95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */,
 			);
