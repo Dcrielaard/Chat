@@ -13,6 +13,7 @@
 		95988D0729F6B86500C5BD72 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */; };
 		95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */; };
 		95E2CBFD29F712FC0067A844 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2CBFC29F712FC0067A844 /* ContactsViewModel.swift */; };
+		95E72B782A010B8500F54452 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E72B772A010B8500F54452 /* ImagePicker.swift */; };
 		95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA773E29F18C2D0024E3A6 /* ChatApp.swift */; };
 		95EA774129F18C2D0024E3A6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA774029F18C2D0024E3A6 /* RootView.swift */; };
 		95EA774329F18C2F0024E3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EA774229F18C2F0024E3A6 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		95988D0629F6B86500C5BD72 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
 		95988D0829F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTextFieldStyle.swift; sourceTree = "<group>"; };
 		95E2CBFC29F712FC0067A844 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		95E72B772A010B8500F54452 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		95EA773B29F18C2D0024E3A6 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EA773E29F18C2D0024E3A6 /* ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatApp.swift; sourceTree = "<group>"; };
 		95EA774029F18C2D0024E3A6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		95EA774F29F18C780024E3A6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				95E72B772A010B8500F54452 /* ImagePicker.swift */,
 				956DE00029FF0B1800C8FF09 /* DatabaseService.swift */,
 			);
 			path = Services;
@@ -306,6 +309,7 @@
 				95F4D0F229F56EAB00BA13C8 /* VerificationView.swift in Sources */,
 				95988D0929F6D4FE00C5BD72 /* CreateProfileTextFieldStyle.swift in Sources */,
 				95E2CBFD29F712FC0067A844 /* ContactsViewModel.swift in Sources */,
+				95E72B782A010B8500F54452 /* ImagePicker.swift in Sources */,
 				95F4D0D729F51F8500BA13C8 /* TabBarButton.swift in Sources */,
 				95EA773F29F18C2D0024E3A6 /* ChatApp.swift in Sources */,
 			);
@@ -441,6 +445,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chat/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Sync your contacts to chat with them.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +477,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chat/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Sync your contacts to chat with them.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

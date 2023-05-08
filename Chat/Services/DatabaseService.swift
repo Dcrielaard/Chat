@@ -8,6 +8,8 @@
 import Foundation
 import Contacts
 import Firebase
+import FirebaseStorage
+import UIKit
 
 class DatabaseService {
     
@@ -76,5 +78,59 @@ class DatabaseService {
             }
         }
         
+    }
+    
+    func setUperProfile(firstName: String, lastName: String, image: UIImage?, completion: @escaping (Bool) -> Void) {
+        
+        // TODO: Guard against logged out users
+        
+        // Get a reference to Firestore
+        let db = Firestore.firestore()
+        
+        // Set the profile data
+        // TODO: After implementing authentication, instead create a document with the actual user's id
+        let doc = db.collection("users").document()
+        doc.setData(["firstname": firstName,
+                     "lastname": lastName])
+        
+        // Check if an image is padded through
+        if let image = image {
+            
+            // Upload the image data
+            let storageRef = Storage.storage().reference()
+            
+            // Turn our image into data
+            let imageData = image.jpegData(compressionQuality: 0.8)
+            
+            // Check that we were able to convert it to data
+            guard imageData != nil else {
+                return
+            }
+            
+            // Specify the file path and name
+            let path = "images/\(UUID().uuidString).jpg"
+            let fileRef = storageRef.child(path)
+            
+            let uploadTask = fileRef.putData(imageData!) { meta, error in
+                if error == nil && meta != nil {
+                    
+                    // Set that image path to the profile
+                    doc.setData(["photo": path], merge: true) { error in
+                        if error == nil {
+                            // Success, notify caller
+                            completion(true)
+                        }
+                        
+                    }
+                    
+                }
+                else {
+                    
+                    // Upload wasn't successful, notify caller
+                    completion(false)
+                    
+                }
+            }
+        }
     }
 }
